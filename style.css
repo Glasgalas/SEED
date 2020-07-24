@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	display: inline-block;
+	background-color: #3d3e40;
+	width: 190px;
+	float: left;
+	position: fixed;
+}
+
+ul.menu li {
+	list-style: none;
+	position: relative;
+}
+
+ul.menu li a {
+	padding: 10px 12px 12px;
+	color: #E8F50C;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial;
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid #c4c4c4;
+}
+
+ul.menu li a:hover {
+	background-color: #b00000;
+}
+
+ul.menu li:first-child a {
+	border-top: none;
+}
+
+ul.menu li:first-child a:hover {
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+}
+
+ul.menu li:last-child a:hover {
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+
+ul.menu li ul {
+	display: none;
+}
+
+ul.menu li:hover ul {
+	display: block;
+	position: absolute;
+	left: 190px;
+	top: 1px;
+	background-color: #28282a;
+	width: 150px;
+	z-index: 1000;
+	border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+}
+
+ul.menu li:hover ul li:first-child a:hover {
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+
+ul.menu li:hover ul li:last-child a:hover {
+	border-radius: 0 0 5px 0;
+	-webkit-border-radius: 0 0 5px 0;
+	-moz-border-radius: 0 0 5px 0;
+}
+
+.price {
+	margin-top: 0;
+	margin-left: 330px;
+}
+
+.contacts {
+	margin-left: 330px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	border-radius: 10px;
+	border-spacing: 0;
+	text-align: center;
+	}
+	th {
+	background: #BCEBDD;
+	color:blue;
+	text-shadow: 0 1px 1px #2D2020;
+	padding: 10px 20px;
+	}
+	th, td {
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: white;
+	width: 250px;
+	}
+	th:first-child, td:first-child {
+	text-align: left;
+	}
+	th:first-child {
+	border-top-left-radius: 10px;
+	}
+	th:last-child {
+	border-top-right-radius: 10px;
+	border-right: none;
+	}
+	td {
+	padding: 10px 20px;
+	background: #20BBFC;
+	}
+	tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+	}
+	tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+	}
+	tr td:last-child {
+	border-right: none;
+	}
+
+	.sales {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 14px;
+		border-radius: 10px;
+		border-spacing: 0;
+		text-align: center;
+		}
+		th {
+		background: #f5b683;
+		color:rgb(44, 88, 138);
+		text-shadow: 0 1px 1px #2D2020;
+		padding: 10px 20px;
+		}
+		th, td {
+		border-style: solid;
+		border-width: 0 1px 1px 0;
+		border-color: white;
+		width: 250px;
+		}
+		th:first-child, td:first-child {
+		text-align: left;
+		}
+		th:first-child {
+		border-top-left-radius: 10px;
+		}
+		th:last-child {
+		border-top-right-radius: 10px;
+		border-right: none;
+		}
+		td {
+		padding: 10px 20px;
+		background: #91e9f8;
+		}
+		tr:last-child td:first-child {
+		border-radius: 0 0 0 10px;
+		}
+		tr:last-child td:last-child {
+		border-radius: 0 0 10px 0;
+		}
+		tr td:last-child {
+		border-right: none;
+		}
+	
+.lavina {
+	background: #a9f891;
+}
+
+.magelan {
+	background:  #fac7e1;
+}
+
+.manager {
+	font-weight: bold;
+}
+
+.bolshevik {
+	background: #d7b8f5;
+}
+
+.piramida {
+	background: #eff5b8;
+}
+
+.rivermall {
+	background: #f5ddb8;
+}
+	
+.prices {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	border-radius: 10px;
+	border-spacing: 0;
+	text-align: center;
+	margin-left: 300px;
+	}
+	th {
+	background: #f7f1f1;
+	color: black;
+	text-shadow: 0 1px 1px #2D2020;
+	padding: 10px 20px;
+	}
+	th, td {
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: white;
+	width: 250px;
+	}
+	th:first-child, td:first-child {
+	text-align: left;
+	}
+	th:first-child {
+	border-top-left-radius: 10px;
+	}
+	th:last-child {
+	border-top-right-radius: 10px;
+	border-right: none;
+	}
+	td {
+	padding: 10px 20px;
+	background: #e8f1f3;
+	}
+	tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+	}
+	tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+	}
+	tr td:last-child {
+	border-right: none;
+	}
+
+.device {
+	background: #f7cbb0;
+}
+
+.gdocs {
+	margin-left: 340px;
+	height: 865px;
+}
+
+.gdocs-iphone {
+	margin-left: 340px;
+	height: 930px;
+	width: 1000px;
+}
+
+

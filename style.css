@@ -15,6 +15,9 @@ html, body {
 .product {
 	background-color: #de752a;
 }
+.workshop {
+	background-color: #d6d30d;
+}
 
 body {
 	margin: 20px;

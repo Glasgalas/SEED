@@ -46,7 +46,8 @@ html, body {
 .grade-loyality {
 	color: #de752a;
 	background-color: transparent;
-	border-width:  1px 1px 
+	border-width:  1px 1px;
+
 }
 
  .grade-loyality-title {
@@ -63,21 +64,29 @@ html, body {
 	 width: max-content;
  }
 
+.promo2 {background-color: #a37bc9;}	
 
- .motivation {
-	 background-color: #FBCAA2;
- }
+.motivation {background-color: #FBCAA2;}
 
- .promo-motivation {
-	 background-color: #c8dbbd;
- }
+.promo-motivation {background-color: #c8dbbd;}
 
- .promo {
+.promo {
 	background-color: transparent;
 	border-width:  1px 1px;
- }
+	color: whitesmoke;
+}
 
- .col4 { width: 40%;}
+.promo1 {
+	background-color: rgb(233, 178, 178);
+}
+
+.headphones {
+	margin-left: 340px;
+}
+
+.col3 { width: 50%;}
+
+.col4 { width: 40%;}
 
 body {
 	margin: 20px;

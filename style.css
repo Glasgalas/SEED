@@ -7,9 +7,14 @@ html, body {
   height: 100%;
 }
 
-.guide {
+.guide, .niz {
 	background-color: #02b062;
 	width: max-content;
+}
+
+.niz {
+	font-weight: 700; 
+	color:rgb(44, 88, 138);
 }
 
 .product {
@@ -19,10 +24,66 @@ html, body {
 	background-color: #d6d30d;
 }
 
+.sale-study {
+	background-color: #07fa54;
+}
+
+.marketing {
+	background-color: #32b4f0;
+}
+
+.troubleshoot {
+	background-color: #bcc2cc;
+}
+
+.mat-bonus {
+	background-color: #cb8efa;
+}
+
+.buhgalter {
+	background-color: #f08b8b;
+}
+.grade-loyality {
+	color: #de752a;
+	background-color: transparent;
+	border-width:  1px 1px 
+}
+
+ .grade-loyality-title {
+	 text-align: center;
+	 color: #de752a;
+ }
+
+ .item {
+	 margin-left: 20px;
+ }	
+
+ .promotion {
+	 margin-left: 340px;
+	 width: max-content;
+ }
+
+
+ .motivation {
+	 background-color: #FBCAA2;
+ }
+
+ .promo-motivation {
+	 background-color: #c8dbbd;
+ }
+
+ .promo {
+	background-color: transparent;
+	border-width:  1px 1px;
+ }
+
+ .col4 { width: 40%;}
+
 body {
 	margin: 20px;
-	/* background-image: linear-gradient(to bottom left, #42275a, #734b6d) ;
-	background-repeat: no-repeat; */
+	background-image: linear-gradient(to bottom left, #42275a, #734b6d) ;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
 }
 
 ul.menu {
@@ -120,6 +181,9 @@ ul.menu li:hover ul li:last-child a:hover {
 
 .pl {
 	margin-left: 360px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	color: #a9f891;
 }
 
 table {
@@ -234,5 +298,4 @@ tr td:last-child {
 
 .comunication {
 	margin-left: 340px;
-
 }

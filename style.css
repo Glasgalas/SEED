@@ -308,3 +308,67 @@ tr td:last-child {
 .comunication {
 	margin-left: 340px;
 }
+
+.price-trade-iphone, .price-trade-ipad, .price-trade-aw, .trade-redemption {
+	margin-left: 340px;
+	float: left;
+}
+
+.trade-blue {
+	border-style: solid;
+	box-sizing: border-box;
+	width: 350px;
+	border: 5px;
+	background-color: rgb(43, 159, 236);
+	margin-left: 700px;
+	padding-left: 5px;
+}
+
+.trade-blue1 {
+	border-style: solid;
+	box-sizing: border-box;
+	width: 400px;
+	border: 5px;
+	background-color: rgb(43, 159, 236);
+	margin-left: 540px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+.iphone-care-trade {
+	margin-left: 20px;
+}
+
+.trade-red1 {
+	border-style: solid;
+	box-sizing: border-box;
+	width: 350px;
+	border: 5px;
+	background-color: rgb(235, 100, 100);
+	margin-left: 700px;
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+.trade-red2 {
+	border-style: solid;
+	box-sizing: border-box;
+	width: 350px;
+	border: 5px;
+	background-color: rgb(235, 100, 100);
+	margin-left: 700px;
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+.trade-green {
+	border-style: solid;
+	box-sizing: border-box;
+	width: 350px;
+	border: 5px;
+	background-color: rgb(59, 172, 59);
+	margin-left: 700px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}

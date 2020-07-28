@@ -90,13 +90,21 @@ html, body {
 
 body {
 	margin: 20px;
-	background-image: linear-gradient(to bottom left, #42275a, #734b6d) ;
+	/* background-image: linear-gradient(to bottom left, #42275a, #734b6d); */
+	background-image: url(./img/fon.webp);
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 }
 
+.index-logo {
+	margin-left: 500px;
+	width: 50%;
+	height: 95%;
+	position: fixed;
+}
+
 ul.menu {
-	margin: 0;
+	margin-top: 50px;
 	padding: 0;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;

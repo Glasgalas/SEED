@@ -21,9 +21,12 @@ html, body {
 
 .standards {
 	 margin-left: 340px;
+	 width: 85%;
 }
 
-.stand-titul {width: 85%;}
+.stand-titul {
+	width: 85%;
+}
 
 .quote {
 	width: 55%;
@@ -31,6 +34,26 @@ html, body {
 	padding-right: 40px;
 	position: relative;
 }
+
+ #stan-obs  {
+	display: inline-block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	color: #a9f891;
+	width: 85%;
+}
+
+#general {
+	display: inline-block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	color: #a9f891;
+	width: 40%;
+	
+}
+
+
+
 
 .quote-text {
 	position: absolute;
@@ -49,6 +72,8 @@ html, body {
 .contents-item {
 	color: #de752a;	
 	line-height: 30px;
+	padding-bottom: 120px;
+	
 }
 
 .niz {

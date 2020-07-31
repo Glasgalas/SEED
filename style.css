@@ -7,9 +7,48 @@ html, body {
   height: 100%;
 }
 
+.credit-title, .bank-title {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	width: 5px;
+}
+
 .guide, .niz {
 	background-color: #02b062;
 	width: max-content;
+}
+
+.standards {
+	 margin-left: 340px;
+}
+
+.stand-titul {width: 85%;}
+
+.quote {
+	width: 55%;
+	float: left;
+	padding-right: 40px;
+	position: relative;
+}
+
+.quote-text {
+	position: absolute;
+    top: 1300px;
+    left: 450px;
+    width: 100%;
+}
+
+.contents a {
+	margin-left: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	color: #a9f891;
+}
+
+.contents-item {
+	color: #de752a;	
+	line-height: 30px;
 }
 
 .niz {
@@ -17,32 +56,20 @@ html, body {
 	color:rgb(44, 88, 138);
 }
 
-.product {
-	background-color: #de752a;
-}
-.workshop {
-	background-color: #d6d30d;
-}
+.product {background-color: #de752a;}
 
-.sale-study {
-	background-color: #07fa54;
-}
+.workshop {background-color: #d6d30d;}
 
-.marketing {
-	background-color: #32b4f0;
-}
+.sale-study {background-color: #07fa54;}
 
-.troubleshoot {
-	background-color: #bcc2cc;
-}
+.marketing {background-color: #32b4f0;}
 
-.mat-bonus {
-	background-color: #cb8efa;
-}
+.troubleshoot {background-color: #bcc2cc;}
 
-.buhgalter {
-	background-color: #f08b8b;
-}
+.mat-bonus {background-color: #cb8efa;}
+
+.buhgalter {background-color: #f08b8b;}
+
 .grade-loyality {
 	color: #de752a;
 	background-color: transparent;
@@ -55,11 +82,11 @@ html, body {
 	 color: #de752a;
  }
 
- .item {
-	 margin-left: 20px;
- }	
+ .item {margin-left: 20px;}	
 
- .promotion {
+ .credit {margin-left: 340px;}
+
+ .promotion  {
 	 margin-left: 340px;
 	 width: max-content;
  }
@@ -76,17 +103,13 @@ html, body {
 	color: whitesmoke;
 }
 
-.promo1 {
-	background-color: rgb(233, 178, 178);
-}
+.promo1 {background-color: rgb(233, 178, 178);}
 
-.headphones {
-	margin-left: 340px;
-}
+.headphones {margin-left: 340px;}
 
-.col3 { width: 50%;}
+.col3 {width: 50%;}
 
-.col4 { width: 40%;}
+.col4 {width: 40%;}
 
 body {
 	margin: 20px;
@@ -258,10 +281,6 @@ tr:last-child td:first-child {
 
 tr:last-child td:last-child {
 	border-radius: 0 0 10px 0;
-}
-
-tr td:last-child {
-	
 }
 	
 .lavina {

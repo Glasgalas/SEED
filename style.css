@@ -20,43 +20,29 @@ html, body {
 }
 
 .standards {
-	 margin-left: 340px;
-	 width: 85%;
+	margin-left: 340px;
+	width: 55%; 
 }
 
-.stand-titul {
-	width: 85%;
-}
+.stand-titul {width: 90%;}
 
 .quote {
-	width: 55%;
-	float: left;
-	padding-right: 40px;
-	position: relative;
+	width: 500px;
 }
 
  #stan-obs  {
-	display: inline-block;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 14px;
 	color: #a9f891;
-	width: 85%;
 }
 
 #general {
-	display: inline-block;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 14px;
 	color: #a9f891;
-	width: 40%;
-	
 }
 
-
-
-
 .quote-text {
-	position: absolute;
     top: 1300px;
     left: 450px;
     width: 100%;
@@ -73,7 +59,6 @@ html, body {
 	color: #de752a;	
 	line-height: 30px;
 	padding-bottom: 120px;
-	
 }
 
 .niz {
@@ -138,8 +123,9 @@ html, body {
 
 body {
 	margin: 20px;
-	/* background-image: linear-gradient(to bottom left, #42275a, #734b6d); */
-	background-image: url(./img/fon.webp);
+	/* background-image: linear-gradient(to bottom left, #42275a, #734b6d); 
+	background-image: url(./img/fon.webp);*/
+	background-image: url(./img/fon.jpg);
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 }
